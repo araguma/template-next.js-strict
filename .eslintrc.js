@@ -4,6 +4,7 @@ module.exports = {
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/strict-type-checked',
+        'next/core-web-vitals',
         'prettier',
     ],
     plugins: ['@typescript-eslint'],

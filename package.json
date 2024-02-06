@@ -12,6 +12,7 @@
         "react-dom": "^18.2.0"
     },
     "devDependencies": {
+        "@next/eslint-plugin-next": "^14.1.0",
         "@trivago/prettier-plugin-sort-imports": "^4.3.0",
         "@tsconfig/strictest": "^2.0.2",
         "@types/node": "^20.11.16",
