@@ -22,4 +22,5 @@ module.exports = {
     endOfLine: 'lf',
     embeddedLanguageFormatting: 'auto',
     singleAttributePerLine: true,
+    plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss'],
 }
