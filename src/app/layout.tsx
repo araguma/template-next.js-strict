@@ -1,6 +1,7 @@
-import '@/app/globals.css'
 import { Metadata } from 'next'
 import { ReactNode } from 'react'
+
+import '@/app/globals.css'
 
 export const metadata: Metadata = {}
 
