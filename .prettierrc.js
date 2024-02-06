@@ -1,6 +1,12 @@
 /* eslint-env node */
 
 module.exports = {
+    plugins: [
+        '@trivago/prettier-plugin-sort-imports',
+        'prettier-plugin-tailwindcss',
+    ],
+
+    /* prettier */
     printWidth: 80,
     tabWidth: 4,
     useTabs: false,
@@ -22,5 +28,8 @@ module.exports = {
     endOfLine: 'lf',
     embeddedLanguageFormatting: 'auto',
     singleAttributePerLine: true,
-    plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss'],
+
+    /* @trivago/prettier-plugin-sort-imports */
+    importOrder: ['<THIRD_PARTY_MODULES>', '^@/(.*)$', '^[./]'],
+    importOrderSeparation: true,
 }
