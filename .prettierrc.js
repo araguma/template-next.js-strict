@@ -27,7 +27,7 @@ module.exports = {
     vueIndentScriptAndStyle: true,
     endOfLine: 'lf',
     embeddedLanguageFormatting: 'auto',
-    singleAttributePerLine: true,
+    singleAttributePerLine: false,
 
     /* @trivago/prettier-plugin-sort-imports */
     importOrder: ['<THIRD_PARTY_MODULES>', '^@/(.*)$', '^[./]'],
