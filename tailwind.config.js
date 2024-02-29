@@ -1,10 +1,13 @@
 /* eslint-env node */
-/** @type {import('tailwindcss').Config} */
+// @ts-check
 
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+const config = {
     content: ['src/**/*.{js,ts,jsx,tsx,mdx}'],
     theme: {
         extend: {},
     },
     plugins: [],
 }
+
+module.exports = config
