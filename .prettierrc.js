@@ -12,7 +12,7 @@ module.exports = {
     useTabs: false,
     semi: false,
     singleQuote: true,
-    quoteProps: 'as-needed',
+    quoteProps: 'consistent',
     jsxSingleQuote: false,
     trailingComma: 'all',
     bracketSpacing: true,
